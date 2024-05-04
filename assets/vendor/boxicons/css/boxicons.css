@@ -884,7 +884,10 @@
     content: "\e978";
   }
   .bxl-twitter:before {
-    content: "\e979";
+    content: "\f1ea";
+  }
+  .bxl-google-scholar:before {
+    content: "\e97a";
   }
   .bxl-unity:before {
     content: "\e97a";
