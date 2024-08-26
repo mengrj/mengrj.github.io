@@ -16,9 +16,8 @@
       <div class="container">
     	<ul class="nav navbar-nav">
               <li><a href="#" style="color: white; font-size: 15px;">Home</a></li>
-              <li><a href="#news" style="color: white;">News</a></li>
               <li><a href="#publications" style="color: white;">Publications</a></li>
-              <li><a href="#teaching" style="color: white;">Teaching</a></li>
+              <li><a href="#teaching" style="color: white;">CV</a></li>
     	</ul>
       </div>
     </nav>
@@ -35,16 +34,18 @@
                     PhD Candidate<br>
                     National University of Singapore<br>
                 </p>
-                <a style="color:#333;" href="https://www.linkedin.com/in/" target="_blank"><img src="icons/linkedin.png" width="25" height="25"></a>
-                &nbsp;
-                <a style="color:#333;" href="https://scholar.google.com/citations?user=1uepKU4AAAAJ&hl=en" target="_blank"><img src="icons/gscholar.png" width="25" height="25"></a>
-                &nbsp;
-                <a style="color:#333;" href="https://github.com/mengrj" target="_blank"><img src="icons/github.png" width="25" height="25"></a>
+                <a href="https://twitter.com/RuijieMeng" target="_blank"><img src="icons/twitter.png" width="25" height="25"></a>
+                &nbsp;&nbsp;
+                <a href="https://scholar.google.com/citations?user=1uepKU4AAAAJ&hl=en" target="_blank"><img src="icons/gscholar.png" width="25" height="25"></a>
+                &nbsp;&nbsp;
+                <a href="https://github.com/mengrj" target="_blank"><img src="icons/github.png" width="25" height="25"></a>
             </div>
             <!-- Entries Column -->
             <div class="col-md-8 col-xs-12">
-                <div class="col" style="margin-top:3%; text-align:justify;">                
-    				<p style="font-size: 16px">Hey! I am Ruijie (pronounced Ray Jey), currently a PhD candidate in School of Computing at National University of Singapore (NUS) advised by Prof. Abhik Roychoudhury. Previously, I studied as an exam-exempted master's student at Institute of Software, Chinese Academy of Sciences (ISCAS) under the supervision of Prof. Yan Cai. I received my bachelor's degree from Tianjin University (TJU).</p>
+                <div class="col" style="margin-top:1%; text-align:justify;">                
+                    <p style="font-size: 16px">Hey! I'm Ruijie (pronounced Ray Jey), currently a PhD candidate in School of Computing at National University of Singapore (NUS) advised by Prof. Abhik Roychoudhury. Previously, I studied as an exam-exempted master's student at Institute of Software, Chinese Academy of Sciences (ISCAS) under the supervision of Prof. Yan Cai. I received my bachelor's degree from Tianjin University (TJU).</p>
+                </div> 
+                <div class="col" style="margin-top:0%; text-align:justify;">
                     <p style="font-size: 16px">My research goal is to make software systems more secure and trustworthy. I am interested in leveraging various techniques to achieve this goal, including fuzz testing, software model checking, program analysis, symbolic execution, and LLMs for testing. My current research has been focused on automated validation of distributed, concurrent, and stateful reactive systems at scale. Reasoning about reactive systems has traditionally relied on software model checking. My research goes beyond traditional approaches by synergizing concepts from software model checking with recent advances in greybox fuzzing, which can thus achieve deep and systematic analysis of real-world reactive systems at scale.</p>
                     <p style="font-size: 16px">My work has led to several papers published at premier conferences in the software engineering domain (e.g., ICSE, FSE, and ASE) and the security domain (e.g., CCS and NDSS). I have developed several open-source automated security testing tools responsible for many previously unknown (critical) vulnerabilities discovered in large real-world software systems. My research has been recognized and supported by the Dean's Graduate Research Excellence Award and the President's Graduate Fellowship.</p>
                 </div> 
@@ -53,77 +54,99 @@
                     <div class="column"></div>
                 </div>
                 <div class="col">
-                    <h3 id="publications">Publications</h3>
-                    <p style="font-size: 15px">
-                        <b>Program Environment Fuzzing</b><br>
-                        Ruijie Meng, Gregory J. Duck, Abhik Roychoudhury.<br>
-                        31th ACM Conference on Computer and Communications Security (CCS), 2024. [paper] [code]
-                    </p>
-                    <p>
-                        <b>Large Language Model guided Protocol Fuzzing</b><br>
-                        Ruijie Meng, Martin Mirchev, Marcel Böhme, Abhik Roychoudhury<br>
-                        Network and Distributed System Security Symposium (NDSS), 2024. [paper] [slides] [code]
-                    </p>
-                    <p>
-                        <b>Greybox Fuzzing of Distributed Systems</b><br>
-                        Ruijie Meng, George Pirlea, Abhik Roychoudhury, Ilya Sergey<br>
-                        30th ACM Conference on Computer and Communications Security (CCS), 2023. [paper] [doi] [slides] [code]
-                    </p>
-                    <p>
-                        <b>Linear-time Temporal Logic guided Greybox Fuzzing</b><br>
-                        Ruijie Meng, Zhen Dong, Jialin Li, Ivan Beschastnikh, Abhik Roychoudhury<br>
-                        ACM/IEEE 44th International Conference on Software Engineering (ICSE), 2022. [paper] [doi] [slides] [code]
-                    </p>
-                    <p>
-                        <b>Low-Overhead Deadlock Prediction</b><br>
-                        Yan Cai, Ruijie Meng(co-first author), Jens Palsberg<br>
-                        ACM/IEEE 42nd International Conference on Software Engineering (ICSE), 2020.
-                    </p>
-                    <p>
-                        <b>ConVul: An Effective Tool for Detecting Concurrency Vulnerabilities</b><br>
-                        Ruijie Meng, Biyun Zhu, Hao Yun, Haicheng Li, Yan Cai, Zijiang Yang
-                        ACM/IEEE 34th International Conference on Automated Software Engineering Tool (ASE), 2019.
-                    </p>
-                    <p>
-                        <b>Detecting Concurrency Memory Corruption Vulnerabilities</b><br>
-                        Yan Cai, Biyun Zhu, Ruijie Meng, Hao Yun, Liang He, Purui Su, Bin Liang<br>
-                        ACM 27th European Software Engineering Conference/Symposium on the Foundations of Software Engineering (ESEC/FSE), 2019. [paper] [doi] [dataset]
-                    </p>
-                    <p>
-                        <b>ConRS: A Requests Scheduling Framework for Increasing Concurrency Degree of Server Programs</b><br>
-                        Biyun Zhu, Ruijie Meng, Zhenyu Zhang, W.K.Chan<br>
-                        IEEE 43rd International Computer Software and Applications Conference (COMPSAC), 2019.
-                    </p>
+                    <h2 id="publications">Selected Publications</h2>
+                    <ul style="font-size: 16px; padding-left: 22px;">
+                        <li>
+                            <p style="font-size: 15.5px"><b>Program Environment Fuzzing</b><br>
+                                Ruijie Meng, Gregory J. Duck, Abhik Roychoudhury.<br>
+                                31th ACM Conference on Computer and Communications Security (CCS), 2024.<br>
+                                [paper] [code]
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-size: 15.5px">
+                                <b>Large Language Model guided Protocol Fuzzing</b><br>
+                                Ruijie Meng, Martin Mirchev, Marcel Böhme, Abhik Roychoudhury<br>
+                                Network and Distributed System Security Symposium (NDSS), 2024.<br>
+                                [paper] [slides] [code]
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-size: 15.5px">
+                                <b>Greybox Fuzzing of Distributed Systems</b><br>
+                                Ruijie Meng, George Pirlea, Abhik Roychoudhury, Ilya Sergey<br>
+                                30th ACM Conference on Computer and Communications Security (CCS), 2023.<br>
+                                [paper] [doi] [slides] [code]
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-size: 15.5px">
+                                <b>Linear-time Temporal Logic guided Greybox Fuzzing</b><br>
+                                Ruijie Meng, Zhen Dong, Jialin Li, Ivan Beschastnikh, Abhik Roychoudhury<br>
+                                ACM/IEEE 44th International Conference on Software Engineering (ICSE), 2022.<br>
+                                [paper] [doi] [slides] [code]
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-size: 15.5px">
+                                <b>Low-Overhead Deadlock Prediction</b><br>
+                                Yan Cai, Ruijie Meng(co-first author), Jens Palsberg<br>
+                                ACM/IEEE 42nd International Conference on Software Engineering (ICSE), 2020.
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-size: 15.5px">
+                                <b>ConVul: An Effective Tool for Detecting Concurrency Vulnerabilities</b><br>
+                                Ruijie Meng, Biyun Zhu, Hao Yun, Haicheng Li, Yan Cai, Zijiang Yang<br>
+                                ACM/IEEE 34th International Conference on Automated Software Engineering Tool (ASE), 2019.
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-size: 15.5px">
+                                <b>Detecting Concurrency Memory Corruption Vulnerabilities</b><br>
+                                Yan Cai, Biyun Zhu, Ruijie Meng, Hao Yun, Liang He, Purui Su, Bin Liang<br>
+                                ACM 27th European Software Engineering Conference/Symposium on the Foundations of Software Engineering (ESEC/FSE), 2019.<br>
+                                [paper] [doi] [dataset]
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-size: 15.5px">
+                                <b>ConRS: A Requests Scheduling Framework for Increasing Concurrency Degree of Server Programs</b><br>
+                                Biyun Zhu, Ruijie Meng, Zhenyu Zhang, W.K.Chan<br>
+                                IEEE 43rd International Computer Software and Applications Conference (COMPSAC), 2019.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="col">
-                    <h3 id="teaching">Teaching Experience</h3>
-                    <ul>
-                        <li>Fuzzing and Software Security Summer School, NUS (May 2024), Lecturer</li>
-                        <li>CS5219 - Automated Software Validation, NUS (AY 2023/2024, Semester 1), Teaching Assistant [Student Feedback]</li>
-                        <li>CS2040 - Data Structures and Algorithms, NUS (AY 2022/2023, Semester 2), Teaching Assistant</li>
-                        <li>CS5219 - Automated Software Validation, NUS (AY 2022/2023, Semester 1), Teaching Assistant [Student Feedback]</li>
-                        <li>CS2040 - Data Structures and Algorithms, NUS (AY 2021/2022, Semester 2), Teaching Assistant</li>
-                        <li>CS2040S - Data Structures and Algorithms, NUS (AY 2021/2022, Semester 1), Teaching Assistant</li>
+                    <h2 id="teaching">Teaching Experience</h2>
+                    <ul style="font-size: 16px; padding-left: 22px;">
+                        <li><p>Fuzzing and Software Security Summer School, NUS (May 2024), Lecturer</li>
+                        <li><p>CS5219 - Automated Software Validation, NUS (AY 2023/2024, Semester 1), Teaching Assistant [Student Feedback]</p></li>
+                        <li><p>CS2040 - Data Structures and Algorithms, NUS (AY 2022/2023, Semester 2), Teaching Assistant</p></li>
+                        <li><p>CS5219 - Automated Software Validation, NUS (AY 2022/2023, Semester 1), Teaching Assistant [Student Feedback]</p></li>
+                        <li><p>CS2040 - Data Structures and Algorithms, NUS (AY 2021/2022, Semester 2), Teaching Assistant</p></li>
+                        <li><p>CS2040S - Data Structures and Algorithms, NUS (AY 2021/2022, Semester 1), Teaching Assistant</p></li>
                     </ul>
                 </div>
                 <div class="col">
-                    <h3 id="honors">Selected Honors and Awards</h3>
-                    <ul>
-                        <li>NUS Dean's Graduate Research Excellence Award, 2023</li>
-                        <li>NUSGS Research Incentive Award, 2023 - 2024</li>
-                        <li>NUS Teaching Fellowship Nomination, 2023</li>
-                        <li>NUS Research Achievement Award, 2023</li>
-                        <li>NUS President's Graduate Fellowship, 2020 - 2024</li>
-                        <li>Outstanding Graduate of Beijing (Top 1% got the awards), 2020</li>
-                        <li>Outstanding Graduate of University of Chinese Academy of Sciences (Top 1% got the awards), 2020</li>
-                        <li>President's Fellowship of Chinese Academy of Sciences (Top 1% got the awards), 2020</li>
-                        <li>National Scholarship of China (Top 2% got the awards), 2019</li>
-                        <li>ACM SIGAI Scholarship, 2019</li>
-                        <li>ACM SIGSOFT CAPS Fund, 2019</li>
-                        <li>The First Price Scholarship of University of Chinese Academy of Sciences (Top 10% got the awards), 2018 and 2019</li>
-                        <li>Outstanding Graduate of Tianjin University (Top 10% got the awards), 2017</li>
-                        <li>Outstanding Bachelor Thesis of Tianjin University (Top 10% got the awards), 2017</li>
+                    <h2 id="honors">Selected Honors and Awards</h2>
+                    <ul style="font-size: 16px; padding-left: 22px;">
+                        <li><p>NUS Dean's Graduate Research Excellence Award, 2023</p></li>
+                        <li><p>NUSGS Research Incentive Award, 2023 - 2024</p></li>
+                        <li><p>NUS Teaching Fellowship Nomination, 2023</p></li>
+                        <li><p>NUS Research Achievement Award, 2023</p></li>
+                        <li><p>NUS President's Graduate Fellowship, 2020 - 2024</p></li>
+                        <li><p>Outstanding Graduate of Beijing (Top 1% got the awards), 2020</p></li>
+                        <li><p>Outstanding Graduate of University of Chinese Academy of Sciences (Top 1% got the awards), 2020</p></li>
+                        <li><p>President's Fellowship of Chinese Academy of Sciences (Top 1% got the awards), 2020</p></li>
+                        <li><p>National Scholarship of China (Top 2% got the awards), 2019</p></li>
+                        <li><p>ACM SIGAI Scholarship, 2019</p></li>
+                        <li><p>ACM SIGSOFT CAPS Fund, 2019</p></li>
+                        <li><p>The First Price Scholarship of University of Chinese Academy of Sciences (Top 10% got the awards), 2018 and 2019</p></li>
+                        <li><p>Outstanding Graduate of Tianjin University (Top 10% got the awards), 2017</p></li>
+                        <li><p>Outstanding Bachelor Thesis of Tianjin University (Top 10% got the awards), 2017</p></li>
                     </ul>
                 </div>
             </div>
